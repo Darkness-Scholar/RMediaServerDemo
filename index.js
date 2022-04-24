@@ -1,7 +1,7 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
-import { API } from './routes/api.js'
+import { API } from './api.js'
 const app = express()
 
 app.use(cors())
